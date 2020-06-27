@@ -3,7 +3,7 @@ import org.hibernate.Session;
 public class Main {
     public static void main(String[] args) {
         Stock stock = new Stock();
-        stock.setName("Beer");
+        stock.setName("Wine");
         stock.setValue(5);
 
         Session session = HibernateConfig.getSession();

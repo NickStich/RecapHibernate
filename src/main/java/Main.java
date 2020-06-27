@@ -7,7 +7,7 @@ public class Main {
         stock.setValue(5);
 
         Stock stock1 = new Stock();
-        stock1.setName("Bike");
+        stock1.setName("Minibike");
         stock1.setValue(1300);
 
         Session session = HibernateConfig.getSession();
